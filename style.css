@@ -6,7 +6,7 @@
 }
 a{
     text-decoration: none;
-    color: #b00b69
+    color: gray
 }
 img{
     cursor: pointer;
@@ -28,10 +28,50 @@ nav{
     width: 100px;
     margin-right:25px;
 }
-.nav-right .cameron{
-    width: 100px;
-    border-radius:50%;
-    margin-right:0;
+.nav-right .discord{
+    width: 35px;
+}
+.nav-right .insta{
+    width: 35px;
+}
+.nav-right .instaname{
+    display:none;
+    position: absolute;
+    bottom:2%;
+    left:94%;
+    right:5%;
+    padding:.5em;
+    width:30px;
+}
+.nav-right .discordname{
+    display:none;
+    position: absolute;
+    bottom:2%;
+    left:90.25%;
+    right:5%;
+    padding:.5em;
+    width:30px;
+}
+.nav-right .email{
+    display:none;
+    position: absolute;
+    bottom:2%;
+    left:83.25%;
+    right:5%;
+    padding:.5em;
+    width:30px;
+}
+.nav-right .insta:hover + .instaname{
+    display: block;
+}
+.nav-right .discord:hover + .discordname{
+    display: block;
+}
+.nav-right .gmail:hover + .email{
+    display: block;
+}
+.nav-right .gmail{
+    width: 45px;
 }
 .nav-left .menu{
     height: 35px;
