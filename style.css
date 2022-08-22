@@ -78,6 +78,10 @@ nav{
     width: 40px;
     margin-right: 25;
 }
+.nav-left .book{
+    height: 20px;
+    width: 30px;
+}
 .nav-middle .search-box .mag{
     width:16px;
     height:16px;
@@ -231,4 +235,8 @@ nav{
 .play-video video{
     width:100%;
     padding-right: 2%;
+}
+.container2 .list-container .author{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
