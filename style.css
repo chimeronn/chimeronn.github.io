@@ -196,7 +196,7 @@ nav{
     margin-top: 15px;
 }
 .vid-list .thumbnail{
-    width:30%;
+    width:100%;
     border-radius:5%;
 }
 .vid-list .flex-div{
@@ -239,4 +239,23 @@ nav{
 .container2 .list-container .author{
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.right-sidebar .side-vid-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:8px;
+}
+.right-sidebar .side-vid-list img{
+    width:100%;
+}
+.side-vid-list .small-thumb{
+    flex-basis: 49%;
+}
+.side-vid-list .vid-info{
+    flex-basis: 49%;
+}
+.play-video .h3{
+    font-weight:600;
+    font-size:22px;
+    font-family: 'Courier New', Courier, monospace;
 }
